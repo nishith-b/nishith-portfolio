@@ -178,6 +178,17 @@
           </header>
 
           <section class="about-text">
+  <p>
+    I'm a Bachelor of Engineering student in Computer Science with a passion for building efficient and scalable web applications. As a Full Stack Developer, I enjoy working across the stack but my primary interest lies in backend development.
+  </p>
+
+  <p>
+    I focus on writing clean, maintainable code, designing robust APIs, and implementing efficient server-side logic. Alongside backend development, I'm enthusiastic about automation, containerization, and cloud infrastructure. My goal is to build systems that are not only functional and reliable, but also scalable and secure.
+  </p>
+</section>
+
+
+         <!-- <section class="about-text">
             <p>
               I'm a Bachelor of Engineering student in Computer Science with a passion for building efficient and scalable web applications. As a Full Stack Developer, I enjoy working across the stack but my primary interest lies in backend development and DevOps.
             </p>
@@ -187,6 +198,7 @@
               I focus on writing clean, maintainable code, designing robust APIs, and implementing efficient server-side logic. Alongside backend development, I'm enthusiastic about automation, CI/CD pipelines, containerization, and cloud infrastructure. My goal is to build systems that are not only functional and reliable, but also scalable and secure.
             </p>
           </section>
+          -->
 
           <!--
           - service
@@ -224,11 +236,11 @@
                 </div>
 
                 <div class="service-content-box">
-                  <h4 class="h4 service-item-title">DevOps</h4>
+                  <h4 class="h4 service-item-title">Learning Cloud</h4>
+                  <p class="service-item-text">
+  Started exploring cloud and have used Docker along with cloud platforms.
+</p>
 
-                <p class="service-item-text">
-                  Automating workflows, and deploying scalable applications using Docker and cloud platforms.
-                </p>
                 </div>
               </li>
 
@@ -252,7 +264,7 @@
                 </div>
               </li>
 
-              <li class="service-item">
+             <!--  <li class="service-item">
                 <div class="service-icon-box">
                   <img
                     src="./assets/images/icon-photo.png"
@@ -261,13 +273,13 @@
                   />
                 </div>
 
-                <div class="service-content-box">
+               <div class="service-content-box">
                   <h4 class="h4 service-item-title">Competitive Programming</h4>
 
                   <p class="service-item-text">
                     Interested in solving coding problems to improve my logical thinking with algorithms and data structures.
                   </p>
-                </div>
+                </div> -->
               </li>
             </ul>
           </section>
@@ -292,7 +304,7 @@
 
                 <img src="./assets/images/icon-quote.svg" alt="quote icon" />
               </div>
-
+              <!--
               <div class="modal-content">
                 <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
 
@@ -308,7 +320,7 @@
                     dolore magnarels alia.
                   </p>
                 </div>
-              </div>
+              </div> -->
             </section>
           </div>
 
@@ -347,15 +359,7 @@
                 </a>
               </li>
 
-              <li class="clients-item">
-                <a href="#">
-                  <img
-                    src="./assets/images/logo-4-color.png"
-                    alt="client logo"
-                  />
-                </a>
-              </li>
-
+             
               <li class="clients-item">
                 <a href="#">
                   <img
@@ -382,8 +386,137 @@
         <!--
         - #PORTFOLIO
       -->
-
         <article class="portfolio" data-page="portfolio">
+  <header>
+    <h2 class="h2 article-title">Projects</h2>
+  </header>
+
+  <section class="projects">
+    <ul class="filter-list">
+      <li class="filter-item">
+        <button class="active" data-filter-btn>Web Applications</button>
+      </li>
+    </ul>
+
+    <div class="filter-select-box">
+      <button class="filter-select" data-select>
+        <div class="select-value" data-selecct-value>
+          Select category
+        </div>
+        <div class="select-icon">
+          <ion-icon name="chevron-down"></ion-icon>
+        </div>
+      </button>
+
+      <ul class="select-list">
+        <li class="select-item">
+          <button data-select-item>All</button>
+        </li>
+
+        <li class="select-item">
+          <button data-select-item>Web design</button>
+        </li>
+
+        <li class="select-item">
+          <button data-select-item>Applications</button>
+        </li>
+
+        <li class="select-item">
+          <button data-select-item>Web development</button>
+        </li>
+      </ul>
+    </div>
+  
+    <ul class="project-list">
+      <li class="project-item active" data-filter-item data-category="web development">
+        <a href="https://github.com/nishith-b/samvadh.git">
+          <figure class="project-img animated-icon-container">
+            <div class="project-item-icon-box">
+              <ion-icon name="rocket-outline"></ion-icon>
+            </div>
+          </figure>
+
+          <h3 class="project-title">Samvadh</h3>
+
+          <p class="project-category">FullStack</p>
+        </a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="web development">
+        <a href="https://github.com/nishith-b/media-morpher.git">
+          <figure class="project-img animated-icon-container">
+            <div class="project-item-icon-box">
+              <ion-icon name="server-outline"></ion-icon>
+            </div>
+          </figure>
+
+          <h3 class="project-title">Media Morpher</h3>
+
+          <p class="project-category">Backend</p>
+        </a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="web design">
+        <a href="https://github.com/nishith-b/devhub-app.git">
+          <figure class="project-img animated-icon-container">
+            <div class="project-item-icon-box">
+              <ion-icon name="people-outline"></ion-icon>
+            </div>
+          </figure>
+
+          <h3 class="project-title">DevHub</h3>
+
+          <p class="project-category">FullStack</p>
+        </a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="applications">
+        <a href="https://github.com/nishith-b/fbs-flight-service.git">
+          <figure class="project-img animated-icon-container">
+            <div class="project-item-icon-box">
+              <ion-icon name="options-outline"></ion-icon>
+            </div>
+          </figure>
+
+          <h3 class="project-title">Flight Booking System</h3>
+
+          <p class="project-category">Backend</p>
+  
+        </a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="web design">
+        <a href="#">
+          <figure class="project-img animated-icon-container">
+            <div class="project-item-icon-box">
+              <ion-icon name="refresh-outline"></ion-icon>
+            </div>
+          </figure>
+
+          <h3 class="project-title">Updating...</h3>
+
+          <p class="project-category">....</p>
+        </a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="web design">
+        <a href="#">
+          <figure class="project-img animated-icon-container">
+            <div class="project-item-icon-box">
+              <ion-icon name="sparkles-outline"></ion-icon>
+            </div>
+          </figure>
+
+          <h3 class="project-title">Updating...</h3>
+
+          <p class="project-category">...</p>
+        </a>
+      </li>
+    </ul>
+  </section>
+</article>
+
+        <!-- <article class="portfolio" data-page="portfolio">
           <header>
             <h2 class="h2 article-title">Projects</h2>
           </header>
@@ -571,7 +704,7 @@
               </li>
               </ul>
           </section>
-        </article>
+        </article> -->
 
        </div>
     </main>

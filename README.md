@@ -1,13 +1,13 @@
 
 ```
-# 🧑‍💻 Nishith's Portfolio
+# 🧑‍💻Portfolio
 
 Welcome to my personal portfolio website! This is a fully responsive site built with HTML, CSS, and JavaScript, designed to showcase my projects, skills, and background in web development and software engineering.
 
 ## 🚀 Live Demo
 
-🌐 [Visit My Portfolio](https://your-username.github.io/nishith-portfolio/)  
-*(Replace the URL with your actual GitHub Pages link)*
+🌐 [https://nishithdev-sigma.vercel.app/](https://github.com/nishith-b/nishith-portfolio.git)  
+
 
 ---
 
@@ -16,7 +16,6 @@ Welcome to my personal portfolio website! This is a fully responsive site built 
 - ✨ Clean, modern UI with responsive design
 - 🧩 About Me, Projects, Skills, and Contact sections
 - 🎯 Interactive elements and smooth scrolling
-- 📱 Mobile-first design
 
 ---
 
